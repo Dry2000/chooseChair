@@ -73,7 +73,6 @@ class GameScene: SKScene {
                   //  print(1)
                     self.removeAllChildren()
                    // figureLabel.removeFromParent()
-                    nameLabel[i].removeFromParent()
                     nameLabel[i+1].position = CGPoint(x:0,y:self.frame.height/3)
                     nameLabel[i+1].fontSize = frame.width/4
                     self.addChild(nameLabel[i+1])
